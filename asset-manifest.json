@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/ghost_drive_landing/static/css/main.0e42fb03.css",
-    "main.js": "/ghost_drive_landing/static/js/main.fa0a47b5.js",
+    "main.css": "/ghost_drive_landing/static/css/main.41b4175f.css",
+    "main.js": "/ghost_drive_landing/static/js/main.6973d549.js",
     "static/media/footer.png": "/ghost_drive_landing/static/media/footer.2c9f5c18b73f95abf8d5.png",
     "static/media/secured.png": "/ghost_drive_landing/static/media/secured.fd2727fb2a253f975bb5.png",
     "static/media/space-craft.png": "/ghost_drive_landing/static/media/space-craft.9693e6e32e858b07442d.png",
     "static/media/agnostic.png": "/ghost_drive_landing/static/media/agnostic.c632a15776be55108a16.png",
     "static/media/encrypted.png": "/ghost_drive_landing/static/media/encrypted.5f3e4457e0089bcbf3ac.png",
     "static/media/file-manager.svg": "/ghost_drive_landing/static/media/file-manager.0a19b8a699f69dee2c1a7c6e11c87ecd.svg",
+    "static/media/file-manager-mobile.svg": "/ghost_drive_landing/static/media/file-manager-mobile.524c2509dedbfd48e0a0.svg",
     "static/media/ghostDrive.svg": "/ghost_drive_landing/static/media/ghostDrive.832577411248d9c61be918997868291e.svg",
     "static/media/linux.svg": "/ghost_drive_landing/static/media/linux.8cb82ef843173344eae78844e6b8d201.svg",
     "static/media/metamask.svg": "/ghost_drive_landing/static/media/metamask.32c2f38ca95bcf4d40f90363c48168d6.svg",
@@ -24,11 +25,11 @@
     "static/media/line.svg": "/ghost_drive_landing/static/media/line.df0ca665e3a93a2830c316d0341009ab.svg",
     "static/media/ghost-drive-icon.svg": "/ghost_drive_landing/static/media/ghost-drive-icon.8e0abd15badd8c91bcf1d9beb3b7504e.svg",
     "static/media/angle-button.svg": "/ghost_drive_landing/static/media/angle-button.8d0b568de20f7ec45aae34b31880305e.svg",
-    "main.0e42fb03.css.map": "/ghost_drive_landing/static/css/main.0e42fb03.css.map",
-    "main.fa0a47b5.js.map": "/ghost_drive_landing/static/js/main.fa0a47b5.js.map"
+    "main.41b4175f.css.map": "/ghost_drive_landing/static/css/main.41b4175f.css.map",
+    "main.6973d549.js.map": "/ghost_drive_landing/static/js/main.6973d549.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e42fb03.css",
-    "static/js/main.fa0a47b5.js"
+    "static/css/main.41b4175f.css",
+    "static/js/main.6973d549.js"
   ]
 }
