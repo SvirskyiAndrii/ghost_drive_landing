@@ -203,16 +203,19 @@
       &.topRight {
         top: 0;
         right: 0;
+        rotate: (90deg);
       }
 
       &.bottomLeft {
         bottom: 0;
         left: 0;
+        rotate: (270deg);
       }
 
       &.bottomRight {
         bottom: 0;
         right: 0;
+        rotate: (180deg);
       }
     }
 
@@ -262,6 +265,32 @@
         .button {
           width: 27.57vw;
           height: 70px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    .ghostDrive {
+      .linksWrapper {
+        a {
+          img {
+            width: 1.32vw;
+            height: 1.32vw;
+          }
+        }
+      }
+    }
+
+    .downloadBlock {
+      .linksBlock {
+        a {
+          img {
+            width: 3.125vw;
+            height: 3.125vw;
+          }
         }
       }
     }

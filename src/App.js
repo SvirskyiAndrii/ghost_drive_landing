@@ -20,11 +20,7 @@ import ethereum from "assets/icons/ethereum.svg";
 import polygon from "assets/icons/polygon.svg";
 import footerImage from "assets/footer.png";
 import line from "assets/line.svg";
-
-import topLeft from "assets/corners/top-left.svg";
-import topRight from "assets/corners/top-right.svg";
-import bottomLeft from "assets/corners/bottom-left.svg";
-import bottomRight from "assets/corners/bottom-right.svg";
+import angle from "assets/icons/angle-button.svg";
 
 import styles from "./styles.module.scss";
 
@@ -53,10 +49,10 @@ const App = () => {
         </div>
         <div className={`${styles.buttonContainer} ${styles.getStarted}`}>
           <button className={styles.button}>GET STARTED</button>
-          <img src={topLeft} alt="corners" className={styles.topLeft} />
-          <img src={topRight} alt="corners" className={styles.topRight} />
-          <img src={bottomLeft} alt="corners" className={styles.bottomLeft} />
-          <img src={bottomRight} alt="corners" className={styles.bottomRight} />
+          <img src={angle} alt="angle" className={styles.topLeft} />
+          <img src={angle} alt="angle" className={styles.topRight} />
+          <img src={angle} alt="angle" className={styles.bottomLeft} />
+          <img src={angle} alt="angle" className={styles.bottomRight} />
         </div>
         <div className={styles.linksWrapper}>
           <a href="#">
@@ -121,10 +117,10 @@ const App = () => {
         <div className={styles.downloadBlock}>
           <div className={styles.buttonContainer}>
             <button className={styles.button}>OWN YOUR DATA</button>
-            <img src={topLeft} alt="corners" className={styles.topLeft} />
-            <img src={topRight} alt="corners" className={styles.topRight} />
-            <img src={bottomLeft} alt="corners" className={styles.bottomLeft} />
-            <img src={bottomRight} alt="corners" className={styles.bottomRight} />
+            <img src={angle} alt="angle" className={styles.topLeft} />
+            <img src={angle} alt="angle" className={styles.topRight} />
+            <img src={angle} alt="angle" className={styles.bottomLeft} />
+            <img src={angle} alt="angle" className={styles.bottomRight} />
           </div>
           <p className={styles.downloadText}>
             Download
