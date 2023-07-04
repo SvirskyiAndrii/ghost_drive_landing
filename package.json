@@ -1,6 +1,7 @@
 {
   "name": "ghost_drive_landing",
   "version": "0.1.0",
+  "homepage": "https://svirskyiandrii.github.io/ghost_drive_landing/",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
@@ -9,7 +10,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -30,6 +33,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "sass": "^1.63.6"
   }
 }

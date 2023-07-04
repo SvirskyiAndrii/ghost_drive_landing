@@ -66,12 +66,13 @@
   }
 
   .fileManager {
-    margin-top: 186px;
-    padding: 0 2.8vw;
+    margin: 186px 2.8vw 0;
 
-    img {
-      width: 100%;
-    }
+    background-image: url("./assets/file-manager.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-top: 40.6%;
   }
 
   .features {
@@ -243,9 +244,9 @@
       height: 42px;
 
       .button {
-        width: 14.5vw;
-        height: 26px;
-        font-size: 1.4vw;
+        width: 15.07vw;
+        height: 34px;
+        font-size: 1.17vw;
       }
     }
   }
@@ -256,15 +257,13 @@
     .buttonContainer {
       height: 100px;
       .button {
-        height: 70px;
+        height: 64px;
       }
 
       &.getStarted {
-        width: 29.53vw;
         height: 100px;
         .button {
-          width: 27.57vw;
-          height: 70px;
+          height: 80px;
         }
       }
     }
@@ -351,7 +350,9 @@
     }
 
     .fileManager {
-      display: none;
+      margin: 186px 0 0;
+      background-image: url("./assets/file-manager-mobile.svg");
+      padding-top: 230%;
     }
 
     .features {
@@ -456,22 +457,22 @@
     }
 
     .buttonContainer {
-      width: 95.27vw;
+      width: 91.46vw;
 
       .button {
-        font-size: 5.83vw;
-        width: 88.3vw;
+        font-size: 5.6vw;
+        width: 84.8vw;
       }
 
       &.getStarted {
-        width: 66.6vw;
+        width: 64vw;
         height: 50px;
         margin-bottom: 60px;
 
         .button {
-          font-size: 5vw;
-          width: 62vw;
-          height: 34px;
+          font-size: 4vw;
+          width: 61.8vw;
+          height: 42px;
         }
       }
     }

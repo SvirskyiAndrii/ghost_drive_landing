@@ -66,9 +66,7 @@ const App = () => {
           </a>
         </div>
       </section>
-      <section className={styles.fileManager}>
-        <img src={fileManager} alt="file manager" />
-      </section>
+      <div className={styles.fileManager}></div>
       <section className={styles.features}>
         <img src={publicIcon} alt="public" className={styles.publicIcon} />
         <div className={styles.feature}>
