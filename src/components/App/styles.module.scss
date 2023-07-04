@@ -1,0 +1,450 @@
+.container {
+  .spaceCraft {
+    position: absolute;
+    left: 50%;
+    top: -26vw;
+    transform: translateX(-50%);
+    width: 53.4vw;
+    z-index: -1;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 3.3vw 0;
+    margin-bottom: 250px;
+
+    .metamask {
+      cursor: pointer;
+    }
+  }
+
+  .ghostDrive {
+    .titleWrapper {
+      text-align: center;
+
+      .title {
+        width: 51vw;
+      }
+
+      .subtitle {
+        font-size: 1.72vw;
+        font-weight: 300;
+        letter-spacing: 0.1vw;
+        margin-bottom: 3px;
+      }
+
+      .description {
+        font-size: 0.62vw;
+        line-height: 150%;
+      }
+    }
+
+    .line {
+      margin: 10px 0 13px 0;
+    }
+
+    .linksWrapper {
+      display: flex;
+      align-items: center;
+
+      a {
+        img {
+          width: 17px;
+          height: 17px;
+        }
+
+        &:nth-child(2n) {
+          margin: 0 1.56vw;
+        }
+      }
+    }
+  }
+
+  .fileManager {
+    margin-top: 186px;
+    padding: 0 2.8vw;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .features {
+    margin-top: 37px;
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .feature {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      margin-top: 75px;
+
+      .featureSubtitle {
+        font-size: 1.64vw;
+        font-weight: 700;
+        line-height: 150%;
+        letter-spacing: 0.098vw;
+      }
+
+      .featureTitle {
+        font-size: 6vw;
+        font-weight: 600;
+        line-height: 130%;
+        letter-spacing: 0.24vw;
+      }
+
+      .featureDescription {
+        font-size: 1.015vw;
+        letter-spacing: 0.6vw;
+        margin-bottom: 20px;
+      }
+
+      .dots {
+        margin-bottom: 30px;
+      }
+
+      .encrypted,
+      .secured {
+        width: 40vw;
+      }
+
+      .agnostic {
+        width: 50vw;
+      }
+    }
+
+    .downloadBlock {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      text-align: center;
+
+      .downloadText {
+        font-size: 1.17vw;
+        font-family: "IBM Plex Mono";
+        font-weight: 300;
+        letter-spacing: 0.046vw;
+        line-height: 150%;
+        margin-bottom: 35px;
+      }
+
+      .linksBlock {
+        display: flex;
+        justify-content: space-between;
+
+        a {
+          margin-right: 20px;
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+
+    .blockchainWrapper {
+      display: flex;
+      justify-content: space-between;
+
+      margin-top: 18px;
+      margin-bottom: 135px;
+
+      .blockchain {
+        display: flex;
+        align-items: center;
+
+        img {
+          margin-right: 1.56vw;
+        }
+
+        p {
+          font-size: 0.93vw;
+          letter-spacing: 0.056vw;
+        }
+      }
+    }
+  }
+
+  .footer {
+    img {
+      width: 100%;
+    }
+  }
+
+  .buttonContainer {
+    width: 29.53vw;
+    height: 78px;
+    margin-bottom: 28px;
+
+    display: inline-block;
+    position: relative;
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      border-style: solid;
+      border-color: #202124;
+    }
+
+    &::before {
+      bottom: 0px;
+      left: 0px;
+      border-width: 0 0 0.5px 0.5px;
+    }
+
+    &::after {
+      top: 0px;
+      right: 0px;
+      border-width: 0.5px 0.5px 0 0px;
+    }
+
+    .button {
+      text-align: center;
+      font-size: 1.64vw;
+      font-family: "Space Mono";
+      font-weight: 700;
+
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #202124;
+      padding: 0;
+      width: 27.57vw;
+      height: 50px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        border-style: solid;
+        border-color: #202124;
+      }
+
+      &::before {
+        top: -14px;
+        left: -14px;
+        border-width: 0.5px 0 0 0.5px;
+      }
+
+      &::after {
+        bottom: -14px;
+        right: -14px;
+        border-width: 0px 0.5px 0.5px 0px;
+      }
+    }
+
+    &.getStarted {
+      width: 15.78vw;
+      height: 42px;
+      margin-bottom: 23px;
+
+      .button {
+        width: 15vw;
+        height: 33px;
+        font-size: 1.25vw;
+
+        &::before {
+          top: -6px;
+          left: -6px;
+        }
+
+        &::after {
+          bottom: -6px;
+          right: -6px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 16px;
+
+    .spaceCraft {
+      width: 100vw;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+
+      top: -33vw;
+
+      img {
+        width: 120%;
+      }
+    }
+
+    .header {
+      padding: 30px 0 0;
+    }
+
+    .ghostDrive {
+      .titleWrapper {
+        .title {
+          width: 95vw;
+        }
+
+        .subtitle {
+          font-size: 5vw;
+        }
+
+        .description {
+          font-size: 2.7vw;
+        }
+      }
+
+      .line {
+        margin-top: 28px;
+      }
+
+      .linksWrapper {
+        a {
+          img {
+            width: 30px;
+            height: 30px;
+          }
+
+          &:nth-child(2n) {
+            margin: 0 9.58vw;
+          }
+        }
+      }
+    }
+
+    .fileManager {
+      display: none;
+    }
+
+    .features {
+      margin-top: 100px;
+      margin-bottom: 105px;
+
+      .publicIcon {
+        display: none;
+      }
+
+      .feature {
+        margin-top: 150px;
+
+        &:nth-child(2n) {
+          margin-top: 0;
+        }
+
+        .featureSubtitle {
+          font-size: 5.83vw;
+        }
+
+        .featureTitle {
+          font-size: 15.83vw;
+        }
+
+        .featureDescription {
+          font-size: 3.61vw;
+          margin: 15px 0 28px;
+        }
+
+        .dots {
+          margin-bottom: 70px;
+        }
+
+        .encrypted,
+        .secured,
+        .agnostic {
+          width: 100%;
+        }
+      }
+
+      .blockchainWrapper {
+        flex-wrap: wrap;
+
+        margin-top: 111px;
+        margin-bottom: 44px;
+        padding: 0 20px;
+
+        .blockchain {
+          margin-bottom: 56px;
+
+          img {
+            margin-right: 5.5vw;
+          }
+
+          p {
+            font-size: 3.33vw;
+            letter-spacing: 0.2vw;
+          }
+        }
+      }
+
+      .downloadBlock {
+        .downloadText {
+          font-size: 4.16vw;
+          letter-spacing: 0.16vw;
+          margin-bottom: 42px;
+        }
+
+        .linksBlock {
+          a {
+            margin-right: 7.4vw;
+
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+
+    .footer {
+      width: 100vw;
+      margin: 0 -16px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+
+      img {
+        width: 180%;
+      }
+    }
+
+    .buttonContainer {
+      width: 91.1vw;
+      height: 78px;
+      margin-bottom: 42px;
+
+      .button {
+        width: 83.3vw;
+        font-size: 5.8vw;
+      }
+
+      &.getStarted {
+        width: 66.6vw;
+        height: 50px;
+        margin-bottom: 60px;
+
+        .button {
+          width: 63.6vw;
+          height: 42px;
+          font-size: 5vw;
+        }
+      }
+    }
+  }
+}
